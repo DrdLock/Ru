@@ -1,4 +1,3 @@
-# Personal Copy with secret:
 # This is a basic setup to get Ru working
 # She can respond when you tell her Welcome Ru and no problem ru
 

@@ -14,7 +14,7 @@ rubot.message(content: "Welcome Ru") do |greeting|
   sleep 2
   greeting.respond "Hello #{greeting.user.name}! :)"
   sleep 3
-  greeting.respond "...unfortunately all I can say right now hello XD."
+  greeting.respond "...unfortunately all I can say right now is hello."
 end 
 
 rubot.message(content: "Hi Ru") { |hi| hi.respond "Hi #{greeting.user.name}!" }

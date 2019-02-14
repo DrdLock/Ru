@@ -1,3 +1,4 @@
 # files to ignore in local repo
 
-db/*.json
+ru_working.rb
+db/*

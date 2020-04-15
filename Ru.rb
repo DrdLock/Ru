@@ -14,7 +14,7 @@ rubot.message(content: "Welcome Ru") do |greeting|
   sleep 2
   greeting.respond "Hello #{greeting.user.name}! :)"
   sleep 3
-  greeting.respond "...unfortunately all I can say right now is hello."
+  greeting.respond "...unfortunately all I can say right now is hello XD."
 end 
 
 rubot.message(content: "Hi Ru") { |hi| hi.respond "Hi #{greeting.user.name}!" }
@@ -24,7 +24,7 @@ rubot.message(content: "no problem Ru") do |event|
   event.respond "<3"
 end
 
-rubot.send_message(ru_info["#general"], "Rubot initializing...Hello World")
+#rubot.send_message("Rubot initializing...Hello World")
 rubot.run 
 
 

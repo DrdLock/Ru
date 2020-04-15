@@ -1,4 +1,5 @@
 # files to ignore in local repo
 
+ru_backup.rb
 ru_working.rb
 db/*
